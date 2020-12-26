@@ -1,0 +1,25 @@
+.sign-in {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    .title {
+        margin: 10px 0;
+    }
+    .hide-and-show-password-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        .hide-and-show-password {
+            margin-right: 10px;
+        }
+        .hide-and-show-password-text {
+            margin-right: 20px;
+        }
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
